@@ -1,0 +1,27 @@
+#works_section{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+#works_section a{
+  text-decoration: none;
+}
+
+.work-card {
+  transition: linear 0.2s;
+}
+
+.work-card:hover {
+  transform:scale(1.05)
+}
+
+.title-section {
+  border-bottom: 3px solid blueviolet;
+}
+.card-cover {width: 350px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('../img/unsplash-photo-1.jpg');
+}
