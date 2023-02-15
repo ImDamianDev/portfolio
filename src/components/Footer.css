@@ -1,0 +1,8 @@
+footer ul {
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.bi {
+    width: 20px;
+    font-size: 2rem;
+}

@@ -1,9 +1,10 @@
-#works_section{
-  color: aliceblue;
+#works_section {
+  background: #80BF9B;
   text-decoration: none;
+  color: var(--primary-color);
 }
 
-#works_section a{
+#works_section a {
   text-decoration: none;
 }
 
@@ -12,13 +13,15 @@
 }
 
 .work-card:hover {
-  transform:scale(1.05)
+  transform: scale(1.05);
 }
 
 .title-section {
-  border-bottom: 3px solid blueviolet;
+  border-bottom: 3px solid var(--primary-color);
 }
-.card-cover {width: 350px;
+
+.card-cover {
+  width: 350px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center center;

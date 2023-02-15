@@ -4,8 +4,8 @@ import './NavBar.css';
 function NavBar() {
 
   return (
-    <div className="NavBar">
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <div id="navbar">
+      <nav className="navbar navbar-expand-lg">
         <div className="container">
 
           <a className="navbar-brand" href="/">ImDamianDev</a>
@@ -17,7 +17,7 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">Home</a>
+                <a className="nav-link" href="/">Home</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#works_section">Works</a>

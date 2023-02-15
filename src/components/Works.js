@@ -4,7 +4,7 @@ import './Works.css';
 function Works() {
 
   return (
-    <div id="works_section" className="bg-warning">
+    <div id="works_section">
       <div className="container px-4 py-5">
         <h2 className="title-section pb-2">Works</h2>
 
