@@ -6,8 +6,7 @@ import { icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- imp
 function NavBar() {
 
   return (
-    <div id="navbar">
-      <nav className="navbar navbar-expand-lg">
+    <nav id="navbar" className='navbar navbar-expand-lg fixed-top'>
         <div className="container">
 
           <a className="navbar-brand" href="/">ImDamianDev</a>
@@ -32,7 +31,6 @@ function NavBar() {
 
         </div>
       </nav>
-    </div>
   );
 }
 
