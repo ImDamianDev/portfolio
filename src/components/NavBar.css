@@ -14,12 +14,12 @@
   margin-left: auto;
 }
 
-.nav-item {
+.navbar .nav-item {
   color: var(--secondary-color);
   margin-left: 40px;
 }
 
-.nav-item :hover {
+.navbar .nav-item :hover {
   border: 1px solid var(--secondary-color);
   border-radius: 5px;
   color: var(--secondary-color);

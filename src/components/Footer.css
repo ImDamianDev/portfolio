@@ -2,7 +2,13 @@ footer ul {
     border-bottom: 2px solid var(--secondary-color);
 }
 
-.bi {
-    width: 20px;
-    font-size: 2rem;
+footer .nav-link:hover{
+    transition: linear 0.3s;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.nav-link:hover svg{
+    transition: linear 0.2s;
+    transform: scale(1.2);
 }
