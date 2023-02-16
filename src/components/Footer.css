@@ -2,11 +2,6 @@ footer ul {
     border-bottom: 2px solid var(--secondary-color);
 }
 
-footer .nav-link {
-    color: var(--secondary-color);
-    transition: linear 0.2s;
-}
-
 @media (hover: hover) {
 
     footer .nav-link:hover {
@@ -16,11 +11,7 @@ footer .nav-link {
     }
 }
 
-.nav-link:active {
-    color: var(--secondary-color);
-}
-
-.nav-link:active svg {
+footer .nav-link:active svg {
     transition: linear 0.2s;
     transform: scale(1.3);
 }
