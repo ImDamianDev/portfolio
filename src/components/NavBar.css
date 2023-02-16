@@ -35,9 +35,8 @@
 }
 
 .navbar-toggler {
-  color: aquamarine;
+  color: var(--secondary-color);
   border: none;
-  box-shadow: none;
   transition: linear 0.2s;
 }
 
