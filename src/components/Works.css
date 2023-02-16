@@ -1,4 +1,5 @@
 #works_section {
+  border-radius: 14px;
   background: #80BF9B;
   text-decoration: none;
   color: var(--primary-color);
