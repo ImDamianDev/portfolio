@@ -4,8 +4,7 @@ import './Works.css';
 function Works() {
 
   return (
-    <div id="works_section">
-      <div className="container px-4 py-5">
+    <div id="works_section" className="container-fluid px-4 py-5">
         <h2 className="title-section pb-2">Works</h2>
 
         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
@@ -21,7 +20,6 @@ function Works() {
           </a>
         </div>
       </div>
-    </div>
   );
 }
 

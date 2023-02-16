@@ -10,12 +10,14 @@ import ButtonIrArriba from './components/ButtonIrArriba'
 function App() {
 
   return (
-    <div className="App container-fluid">
+    <div className="App">
       <NabBar />
+      <div className='container-fluid'>
       <Hero />
       <Works />
       <Footer />
       <ButtonIrArriba />
+      </div>
     </div>
   );
 }
