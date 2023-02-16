@@ -1,5 +1,7 @@
 //import styles
 import './NavBar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 
 function NavBar() {
 
@@ -11,19 +13,19 @@ function NavBar() {
           <a className="navbar-brand" href="/">ImDamianDev</a>
 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+          <FontAwesomeIcon icon={icon({name: 'bars', style: 'solid'})} size="2x"/>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mb-lg-0">
-              <li className="nav-item">
+              <li className="nav-item my-3 my-lg-0">
                 <a className="nav-link" href="/">Home</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item my-3 my-lg-0 ms-lg-5">
                 <a className="nav-link" href="#works_section">Works</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">Contact</a>
+              <li className="nav-item my-3 my-lg-0 ms-lg-5">
+                <a className="nav-link" href="#footer_section">Contact</a>
               </li>
             </ul>
           </div>
