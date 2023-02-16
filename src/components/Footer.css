@@ -13,5 +13,5 @@ footer ul {
 .nav-link:active svg {
     transition: linear 0.2s;
     transform: scale(1.3);
-    text-decoration: none;
+    color: var(--secondary-color);
 }
