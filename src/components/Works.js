@@ -19,7 +19,7 @@ function Works() {
             </div>
           </a>
 
-          <a href="https://imdev-react-calculator.netlify.app/">
+          <a href="https://imdamiandev-react-calculator.netlify.app/">
             <div className="work-card col">
               <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                 <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
