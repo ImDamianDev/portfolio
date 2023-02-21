@@ -5,31 +5,41 @@ function Works() {
 
   return (
     <div id="works_section" className="container-fluid px-4 py-5">
-        <h2 className="title-section pb-2">Works</h2>
+      <h2 className="title-section pb-2">Works</h2>
 
-        <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
 
-          <a href="https://imdamiandev-react-poke-app.netlify.app/">
-            <div className="work-card col">
-              <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h3 className="pt-5 mt-5 mb-4 display-7 lh-1 fw-bold">React-Poke-App</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-
-          <a href="https://imdamiandev-react-calculator.netlify.app/">
-            <div className="work-card col">
-              <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h3 className="pt-5 mt-5 mb-4 display-7 lh-1 fw-bold">React-Calculator</h3>
-                </div>
-              </div>
-            </div>
-          </a>
+        <div id="react-poke-app" className="card h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+          <div className="content">
+            <h2 className="title">React-Poke-App</h2>
+            <a href="https://github.com/ImDamianDev/react-poke-app"
+            type="button" className="btn">
+              View Repo
+            </a>
+            <a href="https://imdamiandev-react-poke-app.netlify.app/"
+            type="button" className="btn">
+              View Website
+            </a>
+          </div>
         </div>
+
+        <div id="react-calculator" className="card h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+          <div className="content">
+            <h2 className="title">React-Calculator</h2>
+            <a href="https://github.com/ImDamianDev/react-calculator"
+            type="button" className="btn">
+              View Repo
+            </a>
+            <a href="https://imdamiandev-react-calculator.netlify.app/"
+            type="button" className="btn">
+              View Website
+            </a>
+          </div>
+        </div>
+
       </div>
+
+    </div>
   );
 }
 
