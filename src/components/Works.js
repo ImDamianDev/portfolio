@@ -18,6 +18,16 @@ function Works() {
               </div>
             </div>
           </a>
+
+          <a href="https://imdev-react-calculator.netlify.app/">
+            <div className="work-card col">
+              <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 className="pt-5 mt-5 mb-4 display-7 lh-1 fw-bold">React-Calculator</h3>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
   );
