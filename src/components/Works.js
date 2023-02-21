@@ -9,7 +9,7 @@ function Works() {
 
         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
 
-          <a href="https://github.com/ImDamianDev/react-poke-app.git">
+          <a href="https://imdamiandev-react-poke-app.netlify.app/">
             <div className="work-card col">
               <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                 <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
