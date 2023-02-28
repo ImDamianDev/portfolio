@@ -16,8 +16,9 @@
 }
 
 .card-proyect .btn {
-  width: 35%;
-  padding: 10px 20px;
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  font-weight: bold;
+  padding: 10px 20px;
+  width: 35%;
 }
