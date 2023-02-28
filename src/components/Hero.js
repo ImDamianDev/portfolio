@@ -1,7 +1,7 @@
 //import styles
 import './Hero.css';
 //import profile picture
-import ProfilePicture from '../img/undraw_pic_profile.svg'
+import ProfilePicture from '../img/profile_imdamiandev-notbg.png'
 
 function Hero() {
 
