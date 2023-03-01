@@ -6,7 +6,7 @@ import ProfilePicture from '../img/profile_imdamiandev-notbg.png'
 function Hero() {
 
   return (
-    <div id="hero-section" className="Hero col-xxl-8">
+    <div id="hero-section" className="Hero">
       <div className="row flex-lg-row-reverse align-items-center py-5">
         <div className="col-10 col-sm-8 col-lg-6 container">
           <img src={ProfilePicture} className="d-block img-fluid" alt="profile img" width="700" height="500" loading="lazy" />
