@@ -1,7 +1,7 @@
 //import styles
 import './Hero.css';
 //import profile picture
-import ProfilePicture from '../img/profile_imdamiandev.png'
+import ProfilePicture from '../img/profile_picture_imdamiandev.png'
 
 function Hero() {
 
