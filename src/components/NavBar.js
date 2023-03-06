@@ -18,13 +18,16 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mb-lg-0">
               <li className="nav-item my-3 my-lg-0">
-                <a className="nav-link" href="/">Home</a>
+                <a className="nav-link" href="/">Inicio</a>
               </li>
               <li className="nav-item my-3 my-lg-0 ms-lg-5">
-                <a className="nav-link" href="#works_section">Works</a>
+                <a className="nav-link" href="/">Acerca de</a>
               </li>
               <li className="nav-item my-3 my-lg-0 ms-lg-5">
-                <a className="nav-link" href="#footer_section">Contact</a>
+                <a className="nav-link" href="#works_section">Proyectos</a>
+              </li>
+              <li className="nav-item my-3 my-lg-0 ms-lg-5">
+                <a className="nav-link" href="#footer_section">Contacto</a>
               </li>
             </ul>
           </div>

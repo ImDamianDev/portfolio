@@ -13,11 +13,18 @@ function Hero() {
         </div>
         <div className="col-lg-6 mt-4">
 
-          <h1 className="display-5 fw-bold lh-1 mb-3">Hello, Im Damian</h1>
-          
-          <p className="lead mb-5">Web Developer</p>
+          <h1 className="display-5 fw-bold lh-1">
+            Hola, soy Damian
+          </h1>
 
-          <a type="button" className="btn btn-outline-secondary btn-lg px-4 mb-5" href="#works_section">Works</a>
+          <div class="typewriter-container">
+            <div class="typewriter">
+              Desarrollador web entusiasta.
+            </div>
+          </div>
+
+          <a type="button" className="btn btn-outline-secondary btn-lg px-4 mb-5" href="#works_section">Mas</a>
+          <a type="button" className="btn btn-outline-secondary btn-lg px-4 mb-5 ms-3" href="#works_section">Proyectos</a>
 
         </div>
       </div>
