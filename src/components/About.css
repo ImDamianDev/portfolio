@@ -1,5 +1,6 @@
 #about_section{
     text-align: justify;
+    padding-bottom: 30px;
 }
 
 .about-title {
@@ -9,4 +10,17 @@
 
 #about_section p{
     margin-inline: auto;
+}
+
+#about_section h3{
+    font-size: 1.25rem;
+    text-align: left;
+    font-weight: bold;
+    color: var(--primary-color)
+}
+
+#about_section h5{
+    font-size: 1rem;
+    text-align: left;
+    color: var(--primary-color);
 }

@@ -39,7 +39,7 @@ function Hero() {
             </span>
           </div>
 
-          <a type="button" className="btn btn-outline-secondary btn-lg px-4 mb-5" href="#works_section">Mas</a>
+          <a type="button" className="btn btn-outline-secondary btn-lg px-4 mb-5" href="#about_section">Sobre mí</a>
           <a type="button" className="btn btn-outline-secondary btn-lg px-4 mb-5 ms-3" href="#works_section">Proyectos</a>
 
         </div>

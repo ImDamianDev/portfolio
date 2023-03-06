@@ -1,6 +1,7 @@
 import './About.css';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import experience from '../data/experience'
 
 function About() {
 
@@ -28,14 +29,20 @@ function About() {
       <h2 className="about-title py-3 my-4">Experiencia y Formación</h2>
       <VerticalTimeline>
 
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2020 - 2023"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        >
-          <h3 className="vertical-timeline-element-title">Servicios mecánica</h3>
-          <h5 className="vertical-timeline-element-subtitle mt-3">D&F Mecanica Automotriz</h5>
-        </VerticalTimelineElement>
+        {experience.map((experience) =>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={experience.fecha}
+            contentStyle={{ background: 'var(--secondary-color)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  var(--secondary-color)' }}
+            iconStyle={{ background: 'var(--secondary-color)' }}
+          >
+            <h3 className="vertical-timeline-element-title">{experience.cargo}</h3>
+            <h5 className="vertical-timeline-element-subtitle mt-3">{experience.lugar}</h5>
+          </VerticalTimelineElement>
+        )}
+
+
 
       </VerticalTimeline>
     </div>
