@@ -1,0 +1,12 @@
+#about_section{
+    text-align: justify;
+}
+
+.about-title {
+    border-bottom: 3px solid var(--secondary-color);
+    text-align: center;
+}
+
+#about_section p{
+    margin-inline: auto;
+}

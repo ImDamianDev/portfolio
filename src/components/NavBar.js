@@ -21,7 +21,7 @@ function NavBar() {
                 <a className="nav-link" href="/">Inicio</a>
               </li>
               <li className="nav-item my-3 my-lg-0 ms-lg-5">
-                <a className="nav-link" href="/">Acerca de</a>
+                <a className="nav-link" href="#about_section">Sobre mí</a>
               </li>
               <li className="nav-item my-3 my-lg-0 ms-lg-5">
                 <a className="nav-link" href="#works_section">Proyectos</a>

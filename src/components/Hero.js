@@ -1,9 +1,26 @@
 //import styles
 import './Hero.css';
 //import profile picture
-import ProfilePicture from '../img/profile_picture_imdamiandev.png'
+import ProfilePicture from '../img/profile_picture_imdamiandev.png';
+import React, { useRef, useEffect } from 'react';
+import Typed from 'typed.js';
 
 function Hero() {
+
+  const typedRef = useRef(null);
+  
+  useEffect(() => {
+    const typed = new Typed(typedRef.current, {
+      strings: ['Técnico en Electrónica.', 'Ingeniero Mecánico.', 'y', 'Desarrollador web entusiasta. :)'],
+      typeSpeed: 75,
+      backSpeed: 75,
+      loop: true
+    });
+
+    return () => {
+      typed.destroy();
+    }
+  }, []);
 
   return (
     <div id="hero-section" className="Hero">
@@ -18,9 +35,8 @@ function Hero() {
           </h1>
 
           <div class="typewriter-container">
-            <div class="typewriter">
-              Desarrollador web entusiasta.
-            </div>
+            <span ref={typedRef}>
+            </span>
           </div>
 
           <a type="button" className="btn btn-outline-secondary btn-lg px-4 mb-5" href="#works_section">Mas</a>
