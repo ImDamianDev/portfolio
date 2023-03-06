@@ -11,9 +11,9 @@ function Hero() {
   
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: ['Técnico en Electrónica.', 'Ingeniero Mecánico.', 'y', 'Desarrollador web entusiasta. :)'],
-      typeSpeed: 75,
-      backSpeed: 75,
+      strings: ['Técnico en Electrónica.', 'Ingeniero Mecánico.', 'y Desarrollador web entusiasta :).'],
+      typeSpeed: 85,
+      backSpeed: 85,
       loop: true
     });
 

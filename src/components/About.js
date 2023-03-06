@@ -49,7 +49,7 @@ function About() {
 
       </VerticalTimeline>
 
-      <a type="button" className="btn btn-outline-secondary btn-lg px-4 mx-xl-auto" href="https://drive.google.com/file/d/1IYd1o-0oclEadAzh0hJJgeAzeaRB9JzU/view?usp=share_link"><FontAwesomeIcon icon={solid('download')}/> Descargar CV</a>
+      <a type="button" className="btn btn-outline-secondary btn-lg mx-xl-auto" href="https://drive.google.com/file/d/1xd6oV5QQ_wf8V_2P51-QpZ6u2E3Agmed/view?usp=share_link"><FontAwesomeIcon icon={solid('download')}/> Descargar CV</a>
 
     </div>
   );
