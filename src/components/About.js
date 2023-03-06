@@ -38,7 +38,7 @@ function About() {
             contentStyle={{ background: 'var(--secondary-color)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  var(--secondary-color)' }}
             iconStyle={{ background: 'var(--secondary-color)', color: 'var(--primary-color)' }}
-            icon={!(experience.tipo === "formacion") ? <FontAwesomeIcon icon={solid('briefcase')} size="2x"/> : <FontAwesomeIcon icon={solid('graduation-cap')} size="2x"/>}
+            icon={!(experience.tipo === "formacion") ? <FontAwesomeIcon icon={solid('briefcase')} size="2x"/> : <FontAwesomeIcon icon={solid('graduation-cap')} size="2x"/>}      
           >
             <h3 className="vertical-timeline-element-title">{experience.cargo}</h3>
             <h5 className="vertical-timeline-element-subtitle mt-3">{experience.lugar}</h5>
@@ -48,6 +48,9 @@ function About() {
 
 
       </VerticalTimeline>
+
+      <a type="button" className="btn btn-outline-secondary btn-lg px-4 mx-xl-auto" href="https://drive.google.com/file/d/1IYd1o-0oclEadAzh0hJJgeAzeaRB9JzU/view?usp=share_link"><FontAwesomeIcon icon={solid('download')}/> Descargar CV</a>
+
     </div>
   );
 }

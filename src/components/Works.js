@@ -7,7 +7,7 @@ function Works() {
 
   return (
     <div id="works_section" className="container-fluid px-4 py-4">
-      <h2 className="section-title pb-2 mb-4">Works</h2>
+      <h2 className="section-title pb-2 mb-4">Proyectos</h2>
 
       <div className="row">
         {proyects.map( (proyect) =>
