@@ -6,19 +6,30 @@
   justify-content: space-between;
   min-height: 300px;
   overflow: hidden;
-  padding: 20px;
 }
 
-.proyect-links{
+.proyect-title {
+  font-size: 1.5em;
+  margin-inline: auto;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.proyect-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
 }
 
 .card-proyect .btn {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  font-weight: bold;
-  padding: 10px 20px;
-  width: 35%;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 14px;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.4);
 }

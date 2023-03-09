@@ -1,6 +1,6 @@
 import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid} from '@fortawesome/fontawesome-svg-core/import.macro'
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import experience from '../data/experience'
@@ -21,11 +21,11 @@ function About() {
         En 2022, realicé un programa de formación intensiva de desarrollo de aplicaciones JavaScript en modalidad bootcamp, lo que me permitió comprender la programación como una habilidad esencial.
       </p>
 
-      <p>Aprendí diversas tecnologías de desarrollo web, tales como HTML, CSS, JavaScript, Bootstrap, Git, Github, Node.js, entre otras, permitidome desarrollar proyectos de software como este mismo portafolio.
+      <p>Aprendí diversas tecnologías de desarrollo web, tales como HTML, CSS, JavaScript, Bootstrap, Git, Github, Node.js, entre otras, permitidome desarrollar proyectos de software como por ejemplo este mismo portafolio.
       </p>
 
       <p>
-        Me entusiasma seguir avanzando en mi carrera profesional, aplicar mis habilidades en el desarrollo de software y seguir aprendiendo nuevas tecnologías para poder ofrecer soluciones digitales de la más alta calidad.
+        Me entusiasma seguir avanzando en mi carrera profesional, aplicar mis habilidades en el desarrollo de software y seguir aprendiendo nuevas tecnologías.
       </p>
 
       <h2 className="about-title py-3 my-4">Experiencia y Formación</h2>
