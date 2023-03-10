@@ -3,6 +3,7 @@
   background: #80BF9B;
   text-decoration: none;
   color: var(--primary-color);
+  padding: 3em 0;
 }
 
 .section-title {
