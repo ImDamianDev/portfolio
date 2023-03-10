@@ -31,6 +31,15 @@
   transition: linear 0.2s;
 }
 
+.nav-item button{
+  width: 100%;
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  transition: linear 0.2s;
+}
+
 .navbar-toggler {
   color: var(--secondary-color);
   border: none;

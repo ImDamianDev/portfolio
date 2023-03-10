@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <NabBar />
-      <div className='container-fluid'>
+      <div className='main-box container-fluid'>
       <Hero />
       <About />
       <Works />
