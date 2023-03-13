@@ -5,7 +5,7 @@ import { brands, solid} from '@fortawesome/fontawesome-svg-core/import.macro' //
 
 function Footer() {
   return (
-    <div id="footer_section" className="py-3">
+    <div id="footer_section" className="pb-3">
       <div className="container">
         <footer className="py-3">
           <ul className="nav justify-content-center pb-3 mb-3">
