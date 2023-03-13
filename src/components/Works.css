@@ -1,9 +1,13 @@
 #works_section {
+  padding-bottom: 5em;
+}
+
+.proyect-box {
   border-radius: 14px;
   background: #80BF9B;
   text-decoration: none;
   color: var(--primary-color);
-  padding: 3em 0;
+  padding: 1em;
 }
 
 .section-title {

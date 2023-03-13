@@ -1,0 +1,29 @@
+#timeline_section {
+    text-align: justify;
+    padding-bottom: 5em;
+}
+
+.timeline-title {
+    border-bottom: 3px solid var(--secondary-color);
+    text-align: center;
+}
+
+.vertical-timeline-element-title {
+    font-size: 1.25rem;
+    text-align: left;
+    font-weight: bold;
+    color: var(--primary-color)
+}
+
+.vertical-timeline-element-subtitle {
+    font-size: 1rem;
+    text-align: left;
+    color: var(--primary-color);
+}
+
+#timeline_section a {
+    display: block;
+    max-width: 210px;
+    border: 3px solid white;
+    color: var(--secondary-color)
+}

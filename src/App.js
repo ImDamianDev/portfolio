@@ -4,6 +4,7 @@ import './App.css';
 import NabBar from './components/NavBar'
 import Hero from './components/Hero'
 import About from './components/About';
+import Timeline from './components/Timeline';
 import Works from './components/Works'
 import Footer from './components/Footer'
 import ButtonIrArriba from './components/ButtonIrArriba'
@@ -16,6 +17,7 @@ function App() {
       <div className='main-box container-fluid'>
       <Hero />
       <About />
+      <Timeline />
       <Works />
       <Footer />
       <ButtonIrArriba />
