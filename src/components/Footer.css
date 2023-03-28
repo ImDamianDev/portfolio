@@ -1,3 +1,7 @@
+#footer_section {
+    position: relative;
+}
+
 footer ul {
     border-bottom: 2px solid var(--secondary-color);
 }
@@ -11,7 +15,6 @@ footer ul {
     }
 }
 
-footer .nav-link:active svg {
-    transition: linear 0.2s;
-    transform: scale(1.3);
+footer p {
+    font-family: 'Raleway', sans-serif;
 }

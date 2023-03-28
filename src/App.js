@@ -14,13 +14,15 @@ function App() {
   return (
     <div className="App">
       <NabBar />
-      <div className='main-box container-fluid'>
-      <Hero />
-      <About />
-      <Timeline />
-      <Works />
-      <Footer />
-      <ButtonIrArriba />
+      <div className='main-box fluid'>
+        <Hero />
+        <div className='container'>
+          <About />
+          <Timeline />
+          <Works />
+        </div>
+        <Footer />
+        <ButtonIrArriba />
       </div>
     </div>
   );

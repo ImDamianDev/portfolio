@@ -5,7 +5,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import experience from '../data/experience'
 
-function About() {
+function Timeline() {
 
   return (
     <div id="timeline_section" className='container'>
@@ -40,4 +40,4 @@ function About() {
   );
 }
 
-export default About;
+export default Timeline;
