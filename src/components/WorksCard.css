@@ -21,7 +21,7 @@
 .proyect-links {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 1em;
   padding: 1em;
 }
