@@ -18,12 +18,22 @@
 }
 
 .vertical-timeline-element-subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     font-size: 1rem;
     text-align: left;
     color: var(--primary-color);
 }
 
 #timeline_section a {
+    background: rgba(22, 56, 64, 0.1);
+    border-radius: 0.5em;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
     display: block;
     max-width: 210px;
     border: 3px solid white;

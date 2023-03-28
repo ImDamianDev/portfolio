@@ -26,7 +26,7 @@ function Timeline() {
             icon={!(experience.tipo === "formacion") ? <FontAwesomeIcon icon={solid('briefcase')} size="2x" /> : <FontAwesomeIcon icon={solid('graduation-cap')} size="2x" />}
           >
             <h3 className="vertical-timeline-element-title">{experience.cargo}</h3>
-            <h5 className="vertical-timeline-element-subtitle mt-3">{experience.lugar}</h5>
+            <h5 className="vertical-timeline-element-subtitle mt-2">{experience.lugar}</h5>
           </VerticalTimelineElement>
         )}
 
@@ -34,7 +34,13 @@ function Timeline() {
 
       </VerticalTimeline>
 
-      <a type="button" className="btn btn-outline-secondary btn-lg mx-xl-auto" href="https://drive.google.com/file/d/1xd6oV5QQ_wf8V_2P51-QpZ6u2E3Agmed/view?usp=share_link"><FontAwesomeIcon icon={solid('download')} /> Descargar CV</a>
+      <a
+        type="button"
+        className="btn btn-lg mx-xl-auto"
+        href="https://drive.google.com/file/d/1xd6oV5QQ_wf8V_2P51-QpZ6u2E3Agmed/view?usp=share_link"
+      >
+        <FontAwesomeIcon icon={solid('download')} /> Descargar CV
+      </a>
 
     </div>
   );

@@ -23,4 +23,13 @@ img {
 #hero-section a {
   color: var(--secondary-color);
   border: 2px solid var(--secondary-color);
+  border-radius: 0.5em;
+  background: rgba(22, 56, 64, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
 }
