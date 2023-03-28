@@ -10,6 +10,23 @@
     margin-bottom: 2em;
 }
 
+span.experiencia {
+    opacity: 0;
+}
+
+span.formacion {
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0.25em 1em;
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 0.5em 0 0 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
 .vertical-timeline-element-title {
     font-size: 1.25rem;
     text-align: left;

@@ -18,7 +18,7 @@ function Timeline() {
 
         {experience.map((experience) =>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className={"vertical-timeline-element-work " + experience.tipo}
             date={experience.fecha}
             contentStyle={{ background: 'var(--secondary-color)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  var(--secondary-color)' }}
@@ -27,6 +27,10 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">{experience.cargo}</h3>
             <h5 className="vertical-timeline-element-subtitle mt-2">{experience.lugar}</h5>
+            <span className={experience.tipo}>
+              <FontAwesomeIcon icon={solid('graduation-cap')}/>
+              Formacion
+            </span >
           </VerticalTimelineElement>
         )}
 
