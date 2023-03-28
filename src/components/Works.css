@@ -1,17 +1,22 @@
 #works_section {
-  padding-bottom: 4em;
+  padding: 4em 0;
+  /* From https://css.glass */
+  background: rgba(22, 56, 64, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 
 .proyect-box {
   border-radius: 14px;
-  background: #80BF9B;
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   padding: 1em;
 }
 
 .section-title {
-  border-bottom: 3px solid var(--primary-color);
+  border-bottom: 3px solid var(--secondary-color);
 }
 
 #react-poke-app {

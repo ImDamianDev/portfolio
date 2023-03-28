@@ -16,11 +16,9 @@ function App() {
       <NabBar />
       <div className='main-box fluid'>
         <Hero />
-        <div className='container'>
-          <About />
-          <Timeline />
-          <Works />
-        </div>
+        <About />
+        <Timeline />
+        <Works />
         <Footer />
         <ButtonIrArriba />
       </div>
