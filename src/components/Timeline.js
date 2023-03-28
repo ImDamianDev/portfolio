@@ -10,7 +10,7 @@ function Timeline() {
   return (
     <div id="timeline_section" className='container'>
 
-      <h2 className="timeline-title py-2 my-4">
+      <h2 className="timeline-title">
         Experiencia y Formación
       </h2>
 

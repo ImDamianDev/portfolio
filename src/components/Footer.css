@@ -1,9 +1,10 @@
 #footer_section {
     position: relative;
+    padding: 4em 0;
 }
 
 footer ul {
-    border-bottom: 2px solid var(--secondary-color);
+    border-bottom: 3px solid var(--secondary-color);
 }
 
 @media (hover: hover) {

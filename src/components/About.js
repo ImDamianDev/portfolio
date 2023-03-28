@@ -6,7 +6,7 @@ function About() {
     <div id="about_section" className='fluid'>
       <div className='container'>
 
-        <h2 className="about-title pb-2 mb-4">
+        <h2 className="about-title">
           Sobre mí
         </h2>
 

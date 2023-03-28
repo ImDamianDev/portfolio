@@ -8,7 +8,7 @@ function Works() {
   return (
     <div id="works_section">
       <div className="proyect-box container px-4">
-        <h2 className="section-title pb-2 mb-4">
+        <h2 className="section-title">
           Proyectos
         </h2>
 

@@ -6,6 +6,8 @@
 .timeline-title {
     border-bottom: 3px solid var(--secondary-color);
     text-align: center;
+    padding-bottom: 0.75em;
+    margin-bottom: 2em;
 }
 
 .vertical-timeline-element-title {
