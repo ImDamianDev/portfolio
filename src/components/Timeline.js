@@ -29,7 +29,7 @@ function Timeline() {
             <h5 className="vertical-timeline-element-subtitle mt-2">{experience.lugar}</h5>
             <span className={experience.tipo}>
               <FontAwesomeIcon icon={solid('graduation-cap')}/>
-              Formacion
+              Formación
             </span >
           </VerticalTimelineElement>
         )}
