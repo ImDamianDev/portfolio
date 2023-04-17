@@ -13,6 +13,11 @@ const proyects = [
     nombre_proyecto: "react-chatbot-app",
     repo_url: "https://github.com/ImDamianDev/react-chatbot-app.git",
     web_url: "https://imdamiandev-react-chatbot-app.netlify.app/"
+  },
+  {
+    nombre_proyecto: "re-cursos-dev",
+    repo_url: "https://github.com/ImDamianDev/re-cursos-dev.git",
+    web_url: "https://re-cursos-dev.vercel.app/"
   }
 
 ]
