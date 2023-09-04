@@ -41,7 +41,7 @@ function Timeline() {
       <a
         type="button"
         className="btn btn-lg mx-xl-auto"
-        href="https://drive.google.com/file/d/1xd6oV5QQ_wf8V_2P51-QpZ6u2E3Agmed/view?usp=share_link"
+        href="https://drive.google.com/file/d/1SM5dG2iSrjN-kKeaIeR2JZ3TJPuJMO5j/view?usp=sharing"
       >
         <FontAwesomeIcon icon={solid('download')} /> Descargar CV
       </a>
